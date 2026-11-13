@@ -1,0 +1,31 @@
+# ============================================================
+# PaperPilot AI — Clean Production requirements.txt
+# Tested & Verified on Python 3.12 (Windows AMD64)
+# ============================================================
+
+# Frontend UI
+streamlit>=1.41.0
+
+# Core LangChain & Orchestration
+langchain>=1.4.0
+langchain-core>=1.7.0
+langchain-community>=0.4.0
+langchain-text-splitters>=1.1.0
+
+# LLM Providers (Local Ollama primary, Groq fallback)
+langchain-ollama>=1.1.0
+langchain-groq>=1.1.0
+ollama>=0.6.0
+groq>=0.37.0
+
+# Embeddings & Vector Database
+sentence-transformers>=6.2.0
+chromadb>=1.5.0
+
+# PDF & Presentation Generation
+pymupdf>=2.1.0
+python-pptx>=1.0.2
+
+# Configuration & Testing
+python-dotenv>=1.2.0
+pytest>=9.0.0

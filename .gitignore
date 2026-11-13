@@ -1,0 +1,45 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+*/venv/
+*/env/
+*/.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+*/__pycache__/
+*/.pytest_cache/
+
+# Local Vector Database & Persistent Storage
+chroma_db/
+*/chroma_db/
+*.sqlite3
+
+# Local Output Presentations & Heavy Binaries
+outputs/*.pptx
+*/outputs/*.pptx
+
+# Sensitive Local Secrets & Configurations
+.env
+*.env
+.env.*
+!.env.example
+*/.env
+*/*.env
+*/*.env.*
+!*/.env.example
+
+# Streamlit Cache
+.streamlit/
+*/.streamlit/
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
